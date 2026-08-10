@@ -1,0 +1,13 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout <<"Himno Nacional de Bolivia" <<endl ;
+    cout<<"Bolivianos: el hado propicio corono" <<endl ;
+    cout<<"es ya libre, ya libre este suelo," <<endl ;
+    cout<<"ya cesó su servil condición" <<endl ;
+    return 0 ;
+    
+}
