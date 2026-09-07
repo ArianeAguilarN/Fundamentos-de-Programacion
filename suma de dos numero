@@ -1,0 +1,45 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    
+    float a,b, suma, resta, multiplicacion, division;
+    cout<<"Ingrese la variable a: ";
+    cin>> a;
+    cout<<"Ingrese la avariable b: ";
+    cin>> b;
+    suma= a+b;
+    resta= a-b;
+    multiplicacion= a*b;
+    division= a/b;
+    cout<<"El resultado de la suma es: "<<suma<<endl;
+    cout<<"El resultado de la resta es: "<<resta<<endl;
+    cout<<"El resultado de la multiplicacion es: "<<multiplicacion<<endl;
+    cout<<"El resultado de la divison es: "<<division<<endl;
+    
+
+    return 0;
+}
+#include <iostream>
+using namespace std;
+int main()
+{
+    int sb;
+    int ht;
+    int pht;
+    float sbt, dcto, ad, stn;
+    cout<<"Ingrese las horas trabajadas: ";
+    cin>> ht;
+    cout<<"Ingrese el costo de las horas de trabajo: ";
+    cin>> pht;
+    sb=ht*pht;
+    ad=sb*0.15;
+    sbt=sb+ad;
+    dcto= (sbt*0.01)+(sbt*0.05);
+    stn= sbt-dcto;
+    cout<<"El salario percibido por el empleado es: "<<stn;
+
+
+    return 0;
+}
+
